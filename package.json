@@ -4,7 +4,7 @@
   "description": "Free Responsive Bootstrap Template",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy",
+    "build": "eleventy --input=src",
     "clean": "rm -rf _site",
     "dev": "eleventy --serve --port 8000 --input=src"
   },
