@@ -1,0 +1,25 @@
+{
+  "name": "ashok-website",
+  "version": "1.0.0",
+  "description": "Free Responsive Bootstrap Template",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "clean": "rm -rf _site",
+    "dev": "eleventy --serve --port 8000 --input=src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prasann/falconstar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prasann/falconstar/issues"
+  },
+  "homepage": "https://github.com/prasann/falconstar#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

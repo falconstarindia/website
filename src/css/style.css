@@ -66,7 +66,7 @@ img.img-polaroid {
 ==================================== */
  
 header .navbar {
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 .navbar-default {
@@ -396,7 +396,6 @@ bottom: -30px;
 .testimonial-area {
 padding: 0 0 0 0;
 margin:0;
-background: url(../img/low-poly01.jpg) fixed center center;
 background-size: cover;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -1560,6 +1559,8 @@ color: #1B1B1B;
 padding-bottom: 13px;
 padding-top: 12px;
 }
+
+	
 	header .nav li .dropdown-menu  {
 		margin-top: 0;
 	}
