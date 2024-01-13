@@ -548,14 +548,16 @@ ul.breadcrumb li a:hover {
 
 /* Feature
 ============================ */
-.content_white {
+
+.content_green {
+background: #0E987E;
 text-align: center;
 padding: 3em 0;
+color: white;
 }
-.content_white {
-background: #f6f6f6;
-text-align: center;
-padding: 3em 0;
+.content_green .skyfit_desc{
+	margin: 5px;
+	font-size: 120%;
 }
 .featured_content {
 
