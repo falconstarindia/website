@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk
+title: FalconStar - Duffle Bags
+tag: duffle
+tile_title: Duffle Bags
+---
+<section class="duffle">
+    <div class="clearfix">
+    <div class="container">
+    <section>
+    <ul id="thumbs">
+            {% for image_name in collections.duffle %}
+                {# <figure><img src="{{ image | replace('src/', '/') }}" alt=""></figure> #}
+                {% include "components/thumb.njk" %}
+            {% endfor %}
+    </ul>
+    </section>
+    </div>
+</section>
