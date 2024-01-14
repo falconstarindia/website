@@ -1,6 +1,6 @@
 // Import fast-glob package
 const fg = require('fast-glob');
-
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 // Run search for images in /gallery and /sponsors
 const duffleBags = fg.sync(['**/assets/images/featured-bags/duffle/*', '!**/_site']);
 
@@ -11,11 +11,16 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('src/js');
     eleventyConfig.addPassthroughCopy('src/assets/fonts');
 
+    eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+
     eleventyConfig.addCollection('duffle', function(collection) {
-      console.log(duffleBags)
       return duffleBags;
     });
   
     // Return configuration object.
-    return {};
+    return {
+      dir:{
+        input: "src"
+      }
+    };
   };
