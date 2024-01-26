@@ -1,0 +1,4 @@
+Sitemap: https://falconstarindustries.in/sitemap.xml
+
+User-agent: *
+Disallow:
