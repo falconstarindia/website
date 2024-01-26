@@ -1,8 +1,7 @@
 {
-  "name": "ashok-website",
+  "name": "falcon-star",
   "version": "1.0.0",
-  "description": "Free Responsive Bootstrap Template",
-  "main": "index.js",
+  "description": "FalconStar Website",
   "scripts": {
     "build": "eleventy --pathprefix=website",
     "clean": "rm -rf _site",
@@ -10,19 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/prasann/falconstar.git"
+    "url": "git+https://github.com/falconstarindia/website.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/prasann/falconstar/issues"
+    "url": "https://github.com/falconstarindia/website/issues"
   },
-  "homepage": "https://github.com/prasann/falconstar#readme",
+  "homepage": "https://github.com/falconstarindia/website#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
   },
   "dependencies": {
+    "eleventy-plugin-seo": "^0.5.2",
     "fast-glob": "^3.3.2"
   }
 }
