@@ -1,0 +1,18 @@
+---
+layout: layouts/base.njk
+title: FalconStar - Lunch Bags
+tag: lunch
+tile_title: Lunch Bags
+---
+<section class="lunch">
+    <div class="clearfix">
+    <div class="container">
+    <section>
+    <ul id="thumbs">
+            {% for image_name in collections.lunch %}
+                {% include "components/thumb.njk" %}
+            {% endfor %}
+    </ul>
+    </section>
+    </div>
+</section>

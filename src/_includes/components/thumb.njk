@@ -1,9 +1,11 @@
-<li class="item-thumbs col-lg-2 design" data-id="id-0" data-type="web">
+<li class="item-thumbs col-lg-2 all-products" data-id="id-0" data-type="web">
     <!-- Fancybox - Gallery Enabled - Title - Full Image -->
     <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="{{tile_title}}" href="{{ image_name | replace('src/', '/') }}">
     <span class="overlay-img"></span>
     <span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-eye"></i></span>
     </a>
     <!-- Thumb Image and Description -->
-    <img width="120" height="120" src="{{ image_name | replace('src/', '/') }}" alt="">
+    <img 
+    height=140
+    src="{{ image_name | replace('src/', '/') }}" alt="">
 </li>

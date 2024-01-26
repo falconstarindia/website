@@ -1,0 +1,18 @@
+---
+layout: layouts/base.njk
+title: FalconStar - Sling Bags
+tag: sling
+tile_title: Sling Bags
+---
+<section class="sling">
+    <div class="clearfix">
+    <div class="container">
+    <section>
+    <ul id="thumbs">
+            {% for image_name in collections.sling %}
+                {% include "components/thumb.njk" %}
+            {% endfor %}
+    </ul>
+    </section>
+    </div>
+</section>

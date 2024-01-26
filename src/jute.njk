@@ -1,0 +1,18 @@
+---
+layout: layouts/base.njk
+title: FalconStar - Jute Bags
+tag: jute
+tile_title: Jute Bags
+---
+<section class="jute">
+    <div class="clearfix">
+    <div class="container">
+    <section>
+    <ul id="thumbs">
+            {% for image_name in collections.jute %}
+                {% include "components/thumb.njk" %}
+            {% endfor %}
+    </ul>
+    </section>
+    </div>
+</section>

@@ -10,7 +10,6 @@ tile_title: Duffle Bags
     <section>
     <ul id="thumbs">
             {% for image_name in collections.duffle %}
-                {# <figure><img src="{{ image | replace('src/', '/') }}" alt=""></figure> #}
                 {% include "components/thumb.njk" %}
             {% endfor %}
     </ul>

@@ -1,0 +1,18 @@
+---
+layout: layouts/base.njk
+title: FalconStar - Sleeves
+tag: sleeves
+tile_title: Sleeves
+---
+<section class="sleeves">
+    <div class="clearfix">
+    <div class="container">
+    <section>
+    <ul id="thumbs">
+            {% for image_name in collections.sleeves %}
+                {% include "components/thumb.njk" %}
+            {% endfor %}
+    </ul>
+    </section>
+    </div>
+</section>

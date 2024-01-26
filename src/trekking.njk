@@ -1,0 +1,18 @@
+---
+layout: layouts/base.njk
+title: FalconStar - Trekking Bags
+tag: trekking
+tile_title: Trekking Bags
+---
+<section class="trekking">
+    <div class="clearfix">
+    <div class="container">
+    <section>
+    <ul id="thumbs">
+            {% for image_name in collections.trekking %}
+                {% include "components/thumb.njk" %}
+            {% endfor %}
+    </ul>
+    </section>
+    </div>
+</section>

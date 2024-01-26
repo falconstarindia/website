@@ -1663,6 +1663,10 @@ padding-top: 12px;
 		margin-bottom:20px;
   }
 
+  .all-products{
+	width: 50%;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -1692,7 +1696,9 @@ padding-top: 12px;
 		font-size:14px;
 	}
 
-
+	.all-products{
+		width: 50%;
+	}
 }
 
  
