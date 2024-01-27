@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "FalconStar Website",
   "scripts": {
-    "build": "eleventy --pathprefix=website",
+    "build": "eleventy",
     "clean": "rm -rf _site",
     "dev": "eleventy --serve --port 8000"
   },
