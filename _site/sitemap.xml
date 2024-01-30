@@ -3,24 +3,8 @@
     
        
         <url>
-            <loc>/</loc>
-            <lastmod>2024-01-13T08:52:21.149Z</lastmod>
-            <changefreq>monthly</changefreq>
-        </url>
-        
-    
-       
-        <url>
             <loc>/about/</loc>
-            <lastmod>2024-01-13T09:13:39.516Z</lastmod>
-            <changefreq>monthly</changefreq>
-        </url>
-        
-    
-       
-        <url>
-            <loc>/process/</loc>
-            <lastmod>2024-01-13T09:26:05.839Z</lastmod>
+            <lastmod>2024-01-27T10:02:57.346Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -28,7 +12,7 @@
        
         <url>
             <loc>/contact/</loc>
-            <lastmod>2024-01-13T09:27:22.196Z</lastmod>
+            <lastmod>2024-01-27T10:02:57.399Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -36,7 +20,15 @@
        
         <url>
             <loc>/duffle/</loc>
-            <lastmod>2024-01-14T12:17:50.765Z</lastmod>
+            <lastmod>2024-01-27T10:02:57.402Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+        
+    
+       
+        <url>
+            <loc>/</loc>
+            <lastmod>2024-01-27T10:02:57.402Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -44,7 +36,7 @@
        
         <url>
             <loc>/jute/</loc>
-            <lastmod>2024-01-14T12:17:50.765Z</lastmod>
+            <lastmod>2024-01-27T10:02:57.412Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -52,7 +44,7 @@
        
         <url>
             <loc>/laptop/</loc>
-            <lastmod>2024-01-14T12:17:50.765Z</lastmod>
+            <lastmod>2024-01-27T10:02:57.412Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -60,7 +52,15 @@
        
         <url>
             <loc>/lunch/</loc>
-            <lastmod>2024-01-14T12:17:50.765Z</lastmod>
+            <lastmod>2024-01-27T10:02:57.413Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+        
+    
+       
+        <url>
+            <loc>/process/</loc>
+            <lastmod>2024-01-27T10:02:57.415Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -68,7 +68,7 @@
        
         <url>
             <loc>/sleeves/</loc>
-            <lastmod>2024-01-14T12:17:50.765Z</lastmod>
+            <lastmod>2024-01-27T10:02:57.416Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -76,7 +76,7 @@
        
         <url>
             <loc>/sling/</loc>
-            <lastmod>2024-01-14T12:17:50.765Z</lastmod>
+            <lastmod>2024-01-27T10:02:57.416Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -84,7 +84,7 @@
        
         <url>
             <loc>/trekking/</loc>
-            <lastmod>2024-01-14T12:17:50.765Z</lastmod>
+            <lastmod>2024-01-27T10:02:57.416Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -92,7 +92,7 @@
        
         <url>
             <loc>/waist/</loc>
-            <lastmod>2024-01-14T12:17:50.765Z</lastmod>
+            <lastmod>2024-01-27T10:02:57.417Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
