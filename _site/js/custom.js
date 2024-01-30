@@ -3,25 +3,23 @@ jQuery(document).ready(function($) {
 "use strict";
 
         $("#contact-form").submit(function(e){
+
+            let formUrl = "";
             e.preventDefault();
-            $.getScript("https://smtpjs.com/v3/smtp.js", function() {
-                var name = e.target.elements.name.value; // Access the value of the input field with id "name"
-                var email = e.target.elements.email.value; // Access the value of the input field with id "email"
-                var phone = e.target.elements.phone.value; // Access the value of the input field with id "email"
-                var message = e.target.elements.message.value; // Access the value of the textarea with id "message"
+            if(validate(e)){
+                var name = e.target.elements.name.value; 
+                var email = e.target.elements.email.value;
+                var phone = e.target.elements.phone.value;
+                var message = e.target.elements.message.value;
                 console.log(name, email, phone, message);
-                Email.send({
-                    Host : "smtp.elasticemail.com",
-                    Username : "falconstarbags@gmail.com",
-                    Password : "XXX",
-                    To : 'falconstarbags@gmail.com',
-                    From : "falconstarbags@gmail.com",
-                    Subject : "This is the subject !!",
-                    Body : "And this is the body !!"
-                }).then((e) => console.log(e));    
-                });
+                $.post(formUrl, { name: name, email : email, phone : phone, message : message}, 
+                    function(returnedData){
+                        console.log(returnedData);
+                    });
+            }
+                
         });
-		//add some elements with animate effect
+		// add some elements with animate effect
 
 		$(".big-cta").hover(
 			function () {
