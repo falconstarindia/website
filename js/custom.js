@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
 
         $("#contact-form").submit(function(e){
 
-            let formUrl = "";
+            let formUrl = "https://script.google.com/macros/s/AKfycby0HbeHfbJM1oXCuY7k2w2y8m9KDPk80zOIsyYWOvdEWo8CTMfiztJE2Cr0Kh70fEGp/exec";
             e.preventDefault();
             if(validate(e)){
                 var name = e.target.elements.name.value; 
